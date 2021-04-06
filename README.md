@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# BRACELET, WRISTBAND DESIGNER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The website is aiming to users to design their own jewellery by dragging and dropping to circular bead fields on predesigned templates.
 
 ## Available Scripts
 
