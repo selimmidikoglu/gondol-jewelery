@@ -1,0 +1,26 @@
+1. Data Scripts zip file includes insertion of csv files to businesses table. 
+2. Includes a lot of validation script for data like email, website, phone, lat, lon.
+3. Includes sic code observation of businesses. 
+4. Includes creating of other tables. 
+
+
+Velbase Front End (velbaseFrontEnd.zip)
+
+1. React single page application npm install first. 
+2. Than run react build and copy files inside build to directory home/runcloud/webapps/velbase-web 
+3. Web page is served from home/runcloud/Webapps/velbase-web
+
+frontEndBuild.zip
+
+1. The files which are in home/runcloud/Webapps/velbase-web. Served files for website
+
+backEnd.zip
+
+1. Includes both backend for velbase and localdata
+2. Bought files saved to data, sample files saved to sample data.
+3. Starting with app.js npm install- and pm2 start app or- pm2 reload app
+
+localdataWeb.zip
+
+1. localdata server side rendered react. In server part there are two node js roots. React is react with hydrate again npm install. 
+2. pm2 ls  => pm2 restart npm => pm2 reload npm2 . To build use package.json scripts. 

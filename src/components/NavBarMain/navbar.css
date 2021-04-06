@@ -1,0 +1,101 @@
+@import url(//db.onlinewebfonts.com/c/b4f0d7da97c79b037dad0c74b3ba2a26?family=MuseoSlab-700);
+.navbar-main-container {
+    height: 70px;
+    background-color: transparent;
+    border-bottom: 1px dotted white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    animation: expand 1s;
+}
+
+
+
+.logo-container {
+    height: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: auto;
+    padding: 0;
+
+}
+.nav-buttons-container{
+    width: 100%;
+    padding:0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-buttons-container ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.nav-buttons-container ul li{
+    display: block;
+    flex:1;
+    list-style: none;
+    font-family: "MuseoSlab";
+    font-weight: 400;
+    font-size: 14px;
+
+
+}
+.nav-buttons-container ul li a{
+    color:white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 49px;
+
+
+}
+.info-type {
+ 
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 49px;
+    color:white;
+    margin-left: 40px;
+    cursor: pointer
+    
+}
+.jewellery-type-container{
+    height:40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: expandSecond 0.5s;
+    transition: height 2s expandSecond1;
+    
+
+}
+.necklace-temp-container {
+    height:40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: expandSecond 0.5s;
+    transition: height 2s expandSecond1;
+    height:
+}
+
+@keyframes expand{
+    0%{height:0px}
+    100%{height:80}
+}
+@keyframes expandSecond{
+    0%{height:0px}
+    100%{height:40}
+}
+@keyframes expandSecond1{
+    0%{height:40px}
+    100%{height:0}
+}

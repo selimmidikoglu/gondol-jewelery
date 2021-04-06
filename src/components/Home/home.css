@@ -1,0 +1,50 @@
+.mainContainer {
+  
+  height: 100%;
+  width: 100%;
+}
+
+.conL {
+  height: 800px;
+  background-color: #7f8b94;
+}
+
+.conR {
+  height: 2000px;
+  padding: 0;
+}
+
+.drop-target {
+  height: 70%;
+  opacity: 0.8;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.drag-target {
+  
+  padding-top: 20px;
+  height: 70px;
+  opacity: 0.8;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wire {
+  width: 3px;
+  height: 300px;
+  background-color: #f0dbc0;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, #87530f 5px, #87530f 15px);
+  rotate: 150;
+} 
+.drop-bead  {
+  width: 100px;
+  background-color: #7f8b94;
+}
